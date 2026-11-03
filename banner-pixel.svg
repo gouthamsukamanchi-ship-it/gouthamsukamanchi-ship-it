@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" shape-rendering="crispEdges" role="img" aria-label="Pixel art: a little robot watching three big monitors while sipping coffee - Goutham Sukamanchi, AI/ML Engineer in Training">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0f33"/>
+      <stop offset="1" stop-color="#141047"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00f5ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.35"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1000" height="420" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- wall -->
+    <rect width="1000" height="420" fill="url(#wall)"/>
+    <rect y="40" width="1000" height="10" fill="#ffffff" opacity="0.02"/>
+    <rect y="150" width="1000" height="10" fill="#ffffff" opacity="0.02"/>
+    <rect y="260" width="1000" height="10" fill="#ffffff" opacity="0.02"/>
+    <!-- ceiling light strip -->
+    <rect x="0" y="0" width="1000" height="5" fill="#00f5ff">
+      <animate attributeName="fill" values="#00f5ff;#7b5cff;#ff3df2;#7b5cff;#00f5ff" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- shelf with items (top right) -->
+    <rect x="770" y="140" width="150" height="8" fill="#6b4a3a"/>
+    <rect x="770" y="148" width="150" height="3" fill="#ff3df2">
+      <animate attributeName="fill" values="#ff3df2;#00f5ff;#ffd23f;#ff3df2" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="782" y="120" width="22" height="20" fill="#c5603a"/>
+    <rect x="786" y="98" width="6" height="22" fill="#2ee66b"/>
+    <rect x="795" y="90" width="6" height="30" fill="#1fbf58"/>
+    <rect x="803" y="102" width="6" height="18" fill="#2ee66b"/>
+    <rect x="828" y="128" width="40" height="12" fill="#2f5bff"/>
+    <rect x="830" y="116" width="36" height="12" fill="#ff3df2"/>
+    <rect x="886" y="126" width="22" height="14" fill="#ffd23f"/>
+    <rect x="896" y="114" width="12" height="14" fill="#ffd23f"/>
+    <rect x="908" y="120" width="7" height="5" fill="#ff8a3d"/>
+    <rect x="901" y="118" width="3" height="3" fill="#0b1546"/>
+
+    <!-- monitor glows -->
+    <rect x="28"  y="68" width="224" height="194" fill="#2f5bff" opacity="0.12" filter="url(#glow)"><animate attributeName="opacity" values="0.07;0.18;0.07" dur="3s" repeatCount="indefinite"/></rect>
+    <rect x="248" y="43" width="274" height="219" fill="#ff3df2" opacity="0.10" filter="url(#glow)"><animate attributeName="opacity" values="0.18;0.07;0.18" dur="3.4s" repeatCount="indefinite"/></rect>
+    <rect x="518" y="68" width="224" height="194" fill="#2ee66b" opacity="0.10" filter="url(#glow)"><animate attributeName="opacity" values="0.07;0.16;0.07" dur="2.8s" repeatCount="indefinite"/></rect>
+
+    <!-- MONITOR 1: code -->
+    <rect x="40" y="80" width="200" height="170" fill="#1d2557"/>
+    <rect x="48" y="88" width="184" height="154" fill="#080f33"/>
+    <rect x="48" y="88" width="184" height="12" fill="#1b2468"/>
+    <rect x="54" y="92" width="5" height="5" fill="#ff5f56"/>
+    <rect x="63" y="92" width="5" height="5" fill="#ffbd2e"/>
+    <rect x="72" y="92" width="5" height="5" fill="#27c93f"/>
+    <rect x="60"  y="112" height="6" width="0" fill="#00f5ff"><animate attributeName="width" values="0;120;120;0" keyTimes="0;0.4;0.9;1" dur="6s" begin="0s" repeatCount="indefinite"/></rect>
+    <rect x="70"  y="128" height="6" width="0" fill="#ff3df2"><animate attributeName="width" values="0;90;90;0" keyTimes="0;0.4;0.9;1" dur="6s" begin="0.5s" repeatCount="indefinite"/></rect>
+    <rect x="70"  y="144" height="6" width="0" fill="#2ee66b"><animate attributeName="width" values="0;130;130;0" keyTimes="0;0.4;0.9;1" dur="6s" begin="1s" repeatCount="indefinite"/></rect>
+    <rect x="80"  y="160" height="6" width="0" fill="#ffd23f"><animate attributeName="width" values="0;70;70;0" keyTimes="0;0.4;0.9;1" dur="6s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="70"  y="176" height="6" width="0" fill="#7b9bff"><animate attributeName="width" values="0;110;110;0" keyTimes="0;0.4;0.9;1" dur="6s" begin="2s" repeatCount="indefinite"/></rect>
+    <rect x="80"  y="192" height="6" width="0" fill="#00f5ff"><animate attributeName="width" values="0;80;80;0" keyTimes="0;0.4;0.9;1" dur="6s" begin="2.5s" repeatCount="indefinite"/></rect>
+    <rect x="60"  y="208" height="6" width="0" fill="#ff3df2"><animate attributeName="width" values="0;50;50;0" keyTimes="0;0.4;0.9;1" dur="6s" begin="3s" repeatCount="indefinite"/></rect>
+    <rect x="130" y="208" width="8" height="6" fill="#ffffff"><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="132" y="250" width="16" height="40" fill="#2a2f66"/>
+    <rect x="110" y="286" width="60" height="5" fill="#2a2f66"/>
+
+    <!-- MONITOR 2: model training dashboard (center, biggest) -->
+    <rect x="260" y="55" width="250" height="195" fill="#1d2557"/>
+    <rect x="268" y="63" width="234" height="179" fill="#080f33"/>
+    <rect x="268" y="63" width="234" height="12" fill="#1b2468"/>
+    <rect x="274" y="67" width="5" height="5" fill="#ff5f56"/>
+    <rect x="283" y="67" width="5" height="5" fill="#ffbd2e"/>
+    <rect x="292" y="67" width="5" height="5" fill="#27c93f"/>
+    <text x="282" y="96" font-family="Consolas,'Courier New',monospace" font-size="15" fill="#00f5ff">ACCURACY 98.7%<animate attributeName="opacity" values="1;0.6;1" dur="2.4s" repeatCount="indefinite"/></text>
+    <text x="282" y="111" font-family="Consolas,'Courier New',monospace" font-size="10" fill="#8b949e">epoch 42/100  loss 0.0042</text>
+    <g stroke="#2f5bff" stroke-opacity="0.25">
+      <line x1="282" y1="132" x2="494" y2="132"/>
+      <line x1="282" y1="150" x2="494" y2="150"/>
+    </g>
+    <polyline points="282,160 306,148 330,152 354,138 378,142 402,128 426,134 450,122 474,126 494,118" fill="none" stroke="#ffd23f" stroke-width="3" stroke-dasharray="260" stroke-dashoffset="260">
+      <animate attributeName="stroke-dashoffset" values="260;0;0;260" keyTimes="0;0.55;0.9;1" dur="5s" repeatCount="indefinite"/>
+    </polyline>
+    <rect x="284" y="172" width="20" height="50" fill="#00f5ff"><animate attributeName="height" values="20;50;30;20" dur="3s" repeatCount="indefinite"/><animate attributeName="y" values="202;172;192;202" dur="3s" repeatCount="indefinite"/></rect>
+    <rect x="316" y="172" width="20" height="50" fill="#ff3df2"><animate attributeName="height" values="40;24;48;40" dur="2.6s" repeatCount="indefinite"/><animate attributeName="y" values="182;198;174;182" dur="2.6s" repeatCount="indefinite"/></rect>
+    <rect x="348" y="172" width="20" height="50" fill="#2ee66b"><animate attributeName="height" values="28;46;22;28" dur="3.4s" repeatCount="indefinite"/><animate attributeName="y" values="194;176;200;194" dur="3.4s" repeatCount="indefinite"/></rect>
+    <rect x="380" y="172" width="20" height="50" fill="#ffd23f"><animate attributeName="height" values="46;30;50;46" dur="2.2s" repeatCount="indefinite"/><animate attributeName="y" values="176;192;172;176" dur="2.2s" repeatCount="indefinite"/></rect>
+    <rect x="412" y="172" width="20" height="50" fill="#7b9bff"><animate attributeName="height" values="24;48;36;24" dur="3.1s" repeatCount="indefinite"/><animate attributeName="y" values="198;174;186;198" dur="3.1s" repeatCount="indefinite"/></rect>
+    <rect x="444" y="172" width="20" height="50" fill="#00f5ff"><animate attributeName="height" values="50;26;44;50" dur="2.8s" repeatCount="indefinite"/><animate attributeName="y" values="172;196;178;172" dur="2.8s" repeatCount="indefinite"/></rect>
+    <rect x="476" y="172" width="20" height="50" fill="#ff3df2"><animate attributeName="height" values="34;50;20;34" dur="3.6s" repeatCount="indefinite"/><animate attributeName="y" values="188;172;202;188" dur="3.6s" repeatCount="indefinite"/></rect>
+    <rect x="276" y="224" width="226" height="2" fill="#2f5bff" opacity="0.5"/>
+    <rect x="377" y="250" width="16" height="40" fill="#2a2f66"/>
+    <rect x="350" y="286" width="70" height="5" fill="#2a2f66"/>
+
+    <!-- MONITOR 3: radar / computer vision -->
+    <rect x="530" y="80" width="200" height="170" fill="#1d2557"/>
+    <rect x="538" y="88" width="184" height="154" fill="#03160f"/>
+    <text x="548" y="104" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#2ee66b">CV&gt; DETECTING...<animate attributeName="opacity" values="1;0.4;1" dur="1.6s" repeatCount="indefinite"/></text>
+    <g fill="none" stroke="#2ee66b" stroke-opacity="0.5">
+      <circle cx="630" cy="170" r="22"/>
+      <circle cx="630" cy="170" r="44"/>
+      <circle cx="630" cy="170" r="66"/>
+      <line x1="564" y1="170" x2="696" y2="170" stroke-opacity="0.25"/>
+      <line x1="630" y1="104" x2="630" y2="236" stroke-opacity="0.25"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 630 170" to="360 630 170" dur="4s" repeatCount="indefinite"/>
+      <rect x="629" y="104" width="3" height="66" fill="#2ee66b"/>
+      <rect x="621" y="104" width="8" height="66" fill="#2ee66b" opacity="0.18"/>
+      <rect x="611" y="104" width="10" height="66" fill="#2ee66b" opacity="0.08"/>
+    </g>
+    <rect x="656" y="142" width="6" height="6" fill="#ff3df2"><animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="596" y="196" width="6" height="6" fill="#ffd23f"><animate attributeName="opacity" values="1;0;1" dur="4s" begin="1s" repeatCount="indefinite"/></rect>
+    <rect x="648" y="206" width="6" height="6" fill="#00f5ff"><animate attributeName="opacity" values="0;1;0" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect>
+    <rect x="604" y="138" width="6" height="6" fill="#ff3df2"><animate attributeName="opacity" values="1;0;1" dur="3.5s" begin="2s" repeatCount="indefinite"/></rect>
+    <text x="548" y="234" font-family="Consolas,'Courier New',monospace" font-size="10" fill="#2ee66b" opacity="0.8">TARGETS: 4  CONF: 0.97</text>
+    <rect x="622" y="250" width="16" height="40" fill="#2a2f66"/>
+    <rect x="600" y="286" width="60" height="5" fill="#2a2f66"/>
+
+    <!-- desk -->
+    <rect x="0" y="290" width="1000" height="18" fill="#5a3d33"/>
+    <rect x="0" y="290" width="1000" height="4" fill="#7a5546"/>
+    <rect x="0" y="308" width="1000" height="112" fill="#0f0b26"/>
+    <rect x="30" y="308" width="16" height="112" fill="#1c1440"/>
+    <rect x="954" y="308" width="16" height="112" fill="#1c1440"/>
+    <rect x="0" y="310" width="1000" height="3" fill="#00f5ff">
+      <animate attributeName="fill" values="#00f5ff;#7b5cff;#ff3df2;#7b5cff;#00f5ff" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <!-- keyboard + mouse -->
+    <rect x="430" y="282" width="120" height="8" fill="#232a62"/>
+    <rect x="436" y="284" width="10" height="4" fill="#00f5ff"><animate attributeName="fill" values="#00f5ff;#ff3df2;#00f5ff" dur="2s" repeatCount="indefinite"/></rect>
+    <rect x="454" y="284" width="10" height="4" fill="#ff3df2"><animate attributeName="fill" values="#ff3df2;#2ee66b;#ff3df2" dur="2s" begin="0.3s" repeatCount="indefinite"/></rect>
+    <rect x="472" y="284" width="10" height="4" fill="#2ee66b"><animate attributeName="fill" values="#2ee66b;#ffd23f;#2ee66b" dur="2s" begin="0.6s" repeatCount="indefinite"/></rect>
+    <rect x="490" y="284" width="10" height="4" fill="#ffd23f"><animate attributeName="fill" values="#ffd23f;#00f5ff;#ffd23f" dur="2s" begin="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="508" y="284" width="10" height="4" fill="#00f5ff"><animate attributeName="fill" values="#00f5ff;#ff3df2;#00f5ff" dur="2s" begin="1.2s" repeatCount="indefinite"/></rect>
+    <rect x="526" y="284" width="10" height="4" fill="#ff3df2"><animate attributeName="fill" values="#ff3df2;#2ee66b;#ff3df2" dur="2s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="566" y="283" width="10" height="7" fill="#232a62"/>
+
+    <!-- chair -->
+    <rect x="856" y="238" width="14" height="96" fill="#2b2f66"/>
+    <rect x="766" y="326" width="104" height="8" fill="#2b2f66"/>
+    <rect x="808" y="334" width="10" height="38" fill="#232754"/>
+    <rect x="776" y="372" width="90" height="8" fill="#232754"/>
+
+    <!-- ROBOT: legs -->
+    <rect x="762" y="310" width="94" height="16" fill="#1e2a6b"/>
+    <rect x="754" y="326" width="18" height="46" fill="#1e2a6b"/>
+    <rect x="740" y="370" width="34" height="10" fill="#ff3df2"/>
+    <!-- torso -->
+    <rect x="792" y="235" width="60" height="76" fill="#6a4dff"/>
+    <rect x="832" y="235" width="20" height="76" fill="#5238d6"/>
+    <rect x="808" y="250" width="14" height="14" fill="#00f5ff"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></rect>
+    <!-- upper arm -->
+    <rect x="780" y="250" width="20" height="32" fill="#6a4dff"/>
+    <!-- forearm + mug (rotates up to sip) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 792 278;0 792 278;62 792 278;62 792 278;0 792 278;0 792 278" keyTimes="0;0.2;0.38;0.65;0.82;1" dur="8s" repeatCount="indefinite"/>
+      <rect x="752" y="272" width="42" height="12" fill="#6a4dff"/>
+      <rect x="744" y="271" width="10" height="14" fill="#b8c2ff"/>
+      <rect x="724" y="262" width="22" height="26" fill="#e8e8f0"/>
+      <rect x="726" y="264" width="18" height="5" fill="#6b3f2a"/>
+      <rect x="716" y="268" width="8" height="14" fill="#e8e8f0"/>
+      <rect x="719" y="272" width="3" height="6" fill="#0b1546"/>
+      <rect x="729" y="252" width="4" height="4" fill="#ffffff"><animate attributeName="y" values="252;232" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/></rect>
+      <rect x="737" y="250" width="4" height="4" fill="#ffffff"><animate attributeName="y" values="250;226" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.6s" repeatCount="indefinite"/></rect>
+    </g>
+    <!-- head (nods slightly) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 1;0 0;0 -1;0 0" dur="3s" repeatCount="indefinite"/>
+      <rect x="805" y="170" width="4" height="15" fill="#9aa5ff"/>
+      <rect x="800" y="162" width="14" height="10" fill="#ff3df2"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="782" y="185" width="62" height="50" fill="#b8c2ff"/>
+      <rect x="802" y="185" width="42" height="50" fill="#9aa5ff"/>
+      <rect x="784" y="196" width="38" height="26" fill="#0b1546"/>
+      <rect x="790" y="202" width="9" height="9" fill="#00f5ff"><animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.92;0.95;1" dur="4s" repeatCount="indefinite"/></rect>
+      <rect x="806" y="202" width="9" height="9" fill="#00f5ff"><animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.92;0.95;1" dur="4s" repeatCount="indefinite"/></rect>
+      <rect x="790" y="214" width="25" height="3" fill="#ff3df2" opacity="0.8"/>
+      <rect x="780" y="180" width="66" height="6" fill="#ff3df2"/>
+      <rect x="826" y="198" width="16" height="26" fill="#ff3df2"/>
+      <rect x="830" y="203" width="8" height="16" fill="#00f5ff"/>
+    </g>
+    <rect x="808" y="232" width="22" height="6" fill="#9aa5ff"/>
+
+    <!-- floating particles -->
+    <g>
+      <rect x="120" y="390" width="4" height="4" fill="#00f5ff"><animate attributeName="y" values="390;20" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite"/></rect>
+      <rect x="320" y="390" width="4" height="4" fill="#ff3df2"><animate attributeName="y" values="390;30" dur="7s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7s" begin="1s" repeatCount="indefinite"/></rect>
+      <rect x="520" y="390" width="4" height="4" fill="#2ee66b"><animate attributeName="y" values="390;20" dur="10s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" begin="2s" repeatCount="indefinite"/></rect>
+      <rect x="700" y="390" width="4" height="4" fill="#ffd23f"><animate attributeName="y" values="390;40" dur="8s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8s" begin="3s" repeatCount="indefinite"/></rect>
+      <rect x="940" y="390" width="4" height="4" fill="#00f5ff"><animate attributeName="y" values="390;60" dur="11s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="11s" begin="0.5s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- HUD text -->
+    <g font-family="Consolas,'Courier New',monospace">
+      <text x="24" y="30" font-size="13" fill="#00f5ff">SYS://GOUTHAM.EXE<animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/></text>
+      <text x="976" y="30" font-size="13" fill="#2ee66b" text-anchor="end">● 3 SCREENS ONLINE</text>
+      <text x="40" y="378" font-size="12" fill="#00f5ff">LVL UP &gt; AI/ML ENGINEER</text>
+      <rect x="40" y="385" width="300" height="14" fill="none" stroke="#00f5ff" stroke-width="2"/>
+      <rect x="44" y="389" width="0" height="6" fill="#00f5ff">
+        <animate attributeName="width" values="0;292;292;0" keyTimes="0;0.7;0.92;1" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="fill" values="#00f5ff;#ff3df2;#00f5ff" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="976" y="404" font-size="13" fill="#ff3df2" text-anchor="end">PLAYER 1 • SIPPING COFFEE</text>
+    </g>
+
+    <!-- CRT overlays -->
+    <rect width="1000" height="420" fill="url(#lines)" opacity="0.3"/>
+    <rect y="-80" width="1000" height="80" fill="url(#scan)">
+      <animate attributeName="y" from="-80" to="420" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="1000" height="420" fill="url(#vig)"/>
+    <rect x="1" y="1" width="998" height="418" rx="16" fill="none" stroke="#00f5ff" stroke-width="2" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
