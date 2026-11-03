@@ -1,14 +1,16 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:00C6FF&height=220&section=header&text=Goutham%20Sukamanchi&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%7C%20ML%20%7C%20Backend%20Developer&descSize=18&descAlignY=55"/>
+<!-- ANIMATED HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:00C6FF&height=230&section=header&text=Goutham%20Sukamanchi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%7C%20ML%20%7C%20Backend%20Developer&descSize=20&descAlignY=55"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Computer+Science+Engineering+Student;AI+%2F+ML+Enthusiast;Backend+Developer;Building+Intelligent+Solutions"/>
+<!-- TYPING ANIMATION -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=00C6FF&center=true&vCenter=true&width=750&lines=Computer+Science+Engineering+Student;Artificial+Intelligence+Enthusiast;Machine+Learning+Developer;Backend+Engineer;Building+Intelligent+Real-World+Solutions"/>
 
 <br/>
 
-<img src="https://img.shields.io/badge/Focus-Artificial%20Intelligence-00C6FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/University-UPES-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Location-India-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/UPES-Dehradun-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20%2F%20ML-Enthusiast-00C6FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LeetCode-180%2B%20Solved-orange?style=for-the-badge"/>
 
 </div>
 
@@ -18,14 +20,14 @@
 
 - 🎓 Computer Science Engineering student at **UPES, Dehradun**.
 - 🤖 Passionate about Artificial Intelligence, Machine Learning and Deep Learning.
-- 💻 Building backend applications and intelligent systems.
+- 💻 Building intelligent applications and scalable backend systems.
 - 🧠 Exploring LLMs, RAG, Computer Vision and workflow orchestration.
-- 🚀 Interested in scalable, real-world software solutions.
+- 🚀 Interested in solving real-world problems through technology.
 - 🧩 Solved **180+ LeetCode problems**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Skills
 
 ### Programming Languages
 
@@ -33,13 +35,13 @@
 <img src="https://skillicons.dev/icons?i=java,python,cpp,c"/>
 </p>
 
-### AI / ML
+### AI / ML & Computer Vision
 
 <p>
 <img src="https://skillicons.dev/icons?i=pytorch,opencv"/>
 </p>
 
-`Machine Learning` · `Deep Learning` · `Computer Vision` · `RAG` · `LLMs` · `YOLO`
+`Machine Learning` · `Deep Learning` · `Computer Vision` · `YOLO` · `RAG` · `LLMs`
 
 ### Backend & Development
 
@@ -49,7 +51,7 @@
 
 `Temporal` · `REST APIs` · `Ollama` · `Maven`
 
-### Tools
+### Tools & Platforms
 
 <p>
 <img src="https://skillicons.dev/icons?i=idea,vscode,postman,linux"/>
@@ -59,22 +61,53 @@
 
 ## 🚀 Featured Projects
 
-| Project | Description | Technologies |
-|---|---|---|
-| **AeroSaga – Drone Mission Control** | Drone mission orchestration and workflow management | Java, Spring Boot, Temporal |
-| **CodeMind** | AI coding assistant using Retrieval-Augmented Generation | Java, Spring Boot, RAG |
-| **Driver Drowsiness Detection** | Real-time driver drowsiness and distraction monitoring | Java, OpenCV |
-| **AI Face Recognition Attendance** | Automated face recognition attendance system | Python, OpenCV |
-| **APIx – Airfare Price Index** | Real-time airfare price analysis | Python, APIs |
+<table>
+<tr>
+<th>Project</th>
+<th>Description</th>
+<th>Technologies</th>
+</tr>
+
+<tr>
+<td><b>AeroSaga – Drone Mission Control</b></td>
+<td>Drone mission orchestration, workflow execution and monitoring.</td>
+<td>Java, Spring Boot, Temporal</td>
+</tr>
+
+<tr>
+<td><b>CodeMind</b></td>
+<td>AI-powered coding assistant using Retrieval-Augmented Generation.</td>
+<td>Java, Spring Boot, RAG</td>
+</tr>
+
+<tr>
+<td><b>Driver Drowsiness Detection</b></td>
+<td>Real-time driver drowsiness and distraction monitoring.</td>
+<td>Java, OpenCV</td>
+</tr>
+
+<tr>
+<td><b>AI Face Recognition Attendance</b></td>
+<td>Automated attendance system using face recognition.</td>
+<td>Python, OpenCV</td>
+</tr>
+
+<tr>
+<td><b>APIx – Airfare Price Index</b></td>
+<td>Real-time airfare price analysis and tracking.</td>
+<td>Python, APIs</td>
+</tr>
+</table>
 
 ---
 
 ## 🏆 Achievements
 
-- 🏅 Smart India Hackathon 2026 – Finalist.
-- 🏅 IBM NH26 Hackathon – Finalist.
-- ✈️ All India Aero Expo 2025, IIT Roorkee – 4th Rank.
-- 💻 180+ LeetCode problems solved.
+- 🏅 **Smart India Hackathon 2026** – Finalist.
+- 🏅 **IBM NH26 Hackathon** – Finalist.
+- ✈️ **All India Aero Expo 2025, IIT Roorkee** – 4th Rank.
+- 💻 **180+ LeetCode problems** solved.
+- 🎓 Earned a 20% academic scholarship.
 
 ---
 
@@ -83,11 +116,12 @@
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/gouthamsukamanchi-ship-it?style=for-the-badge&logo=github&label=Followers"/>
+
 <img src="https://img.shields.io/github/stars/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it?style=for-the-badge&logo=github&label=Profile%20Stars"/>
 
 <br/><br/>
 
-<img width="60%" src="https://streak-stats.demolab.com?user=gouthamsukamanchi-ship-it&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+<img width="65%" src="https://streak-stats.demolab.com?user=gouthamsukamanchi-ship-it&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 
 </div>
 
@@ -95,21 +129,13 @@
 
 ## 🐍 Watch My Contributions Get Eaten!
 
----
-
-## 📈 My GitHub Contribution Activity
-
 <div align="center">
 
-<a href="https://github.com/gouthamsukamanchi-ship-it">
-
-<img src="https://ghchart.rshah.org/00C6FF/gouthamsukamanchi-ship-it" alt="Goutham's GitHub Contribution Graph" width="100%"/>
-
-</a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Consistency-Always%20Learning-00C6FF?style=for-the-badge"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake.svg"/>
+  <img alt="Animated GitHub Contribution Snake" src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake.svg" width="100%"/>
+</picture>
 
 </div>
 
@@ -125,10 +151,12 @@
 
 </div>
 
+---
+
 <div align="center">
 
 ### 💡 Building today what inspires tomorrow.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:00C6FF&height=110&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:00C6FF&height=120&section=footer"/>
 
 </div>
