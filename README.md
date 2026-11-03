@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/main/assets/banner-pixel.svg" width="100%" alt="Pixel art developer room - Goutham Sukamanchi" />
+<img src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/main/banner-pixel.svg" width="100%" alt="Pixel art developer room - Goutham Sukamanchi" />
 
 # Hi 👋, I'm Goutham Sukamanchi
 
