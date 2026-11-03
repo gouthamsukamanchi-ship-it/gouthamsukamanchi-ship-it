@@ -95,13 +95,21 @@
 
 ## 🐍 Watch My Contributions Get Eaten!
 
+---
+
+## 📈 My GitHub Contribution Activity
+
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake.svg"/>
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake.svg" width="100%"/>
-</picture>
+<a href="https://github.com/gouthamsukamanchi-ship-it">
+
+<img src="https://ghchart.rshah.org/00C6FF/gouthamsukamanchi-ship-it" alt="Goutham's GitHub Contribution Graph" width="100%"/>
+
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Consistency-Always%20Learning-00C6FF?style=for-the-badge"/>
 
 </div>
 
