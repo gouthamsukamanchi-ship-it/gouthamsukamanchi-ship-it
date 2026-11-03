@@ -1,112 +1,134 @@
-# Hi, I'm Goutham Sukamanchi 👋
+cat > README.md <<'EOF'
+<div align="center">
 
-### CSE Student | AI/ML Engineer in Training 🤖
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090979,50:00D4FF,100:090979&height=200&section=header&text=Goutham%20Sukamanchi&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%2FML%20Engineer%20%7C%20Backend%20Developer%20%7C%20Problem%20Solver&descAlignY=55&descSize=16" width="100%"/>
 
-I'm a Computer Science Engineering student passionate about building
-practical AI-powered applications and intelligent software systems.
+# Hi 👋, I'm Goutham Sukamanchi
 
-My interests include Artificial Intelligence, Machine Learning,
-Computer Vision, Generative AI, Retrieval-Augmented Generation (RAG),
-backend development and problem solving.
+### CSE Student | AI/ML Enthusiast | Backend Developer
 
----
+Building intelligent systems, solving challenging problems, and turning ideas into reality.
 
-## 🚀 Featured Projects
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/gouthamsukamanchi-ship-it)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/)
 
-### 🧠 CodeMind — AI Codebase Assistant
-
-An AI-powered codebase assistant that allows developers to ask questions
-about their source-code repositories using Retrieval-Augmented Generation.
-
-**Tech Stack:**  
-Java • Spring Boot • RAG • Ollama • Qwen 2.5 Coder • JavaScript • HTML • CSS
-
-**Key Features:**
-- Repository source-code scanning
-- RAG-based relevant code retrieval
-- Natural-language codebase questions
-- Local LLM integration
-- AI-generated answers with retrieved context
-- Spring Boot REST API
-- Interactive web interface
-
-🔗 [View CodeMind Repository](https://github.com/gouthamsukamanchi-ship-it/codemind-ai-codebase-assistant)
+</div>
 
 ---
 
-### 👁️ AI Face Recognition Attendance System
+## 🚀 About Me
 
-An AI-powered attendance system that detects and recognizes registered
-students using computer vision and automatically records attendance.
-
-**Tech Stack:**  
-Python • YOLO • OpenCV • Face Recognition
-
-**Key Features:**
-- Real-time person detection
-- Face recognition
-- Student identification
-- Attendance tracking
-- Student details display
-- Excel-based attendance records
-
-🔗 [View Attendance System](https://github.com/gouthamsukamanchi-ship-it/AI-Face-Recognition-Attendance-System)
+- 🎓 Computer Science Engineering student at UPES, Dehradun.
+- 🤖 Interested in Artificial Intelligence, Machine Learning and Deep Learning.
+- 💻 Experienced in Java, Python, C++ and backend development.
+- 🧠 Passionate about DSA, system design and problem-solving.
+- 🚁 Working on drone mission control systems and Temporal workflows.
+- 🏆 SIH 2026 Finalist.
+- 🏆 IBM NH26 Hackathon Finalist.
+- 🌱 Constantly learning and building impactful projects.
 
 ---
 
-## 🛠️ Technical Skills
+## 💻 Tech Stack
 
-### Programming
-Python • Java • C • SQL
+### Programming Languages
 
-### Artificial Intelligence & Machine Learning
-Machine Learning • Deep Learning • Computer Vision • Generative AI • RAG
+<p>
+<img src="https://skillicons.dev/icons?i=java,python,cpp,c"/>
+</p>
 
-### Frameworks & Libraries
-Spring Boot • Scikit-learn • OpenCV • YOLO • Pandas • NumPy
+### AI / ML
 
-### Tools & Technologies
-Git • GitHub • Maven • REST APIs • Ollama
+<p>
+<img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn,tensorflow"/>
+</p>
 
-### Databases
-MySQL • JDBC
+### Backend & Development
 
----
+<p>
+<img src="https://skillicons.dev/icons?i=spring,fastapi,react,mysql,docker,git,github"/>
+</p>
 
-## 📚 Currently Learning
+### Tools
 
-- Data Structures & Algorithms
-- Advanced Machine Learning
-- Generative AI
-- Retrieval-Augmented Generation
-- Backend Development
-- System Design
-- Software Engineering
+<p>
+<img src="https://skillicons.dev/icons?i=idea,vscode,linux,maven,postman"/>
+</p>
 
 ---
 
-## 🎯 What I'm Working Toward
+## 🔥 Featured Projects
 
-- Building production-oriented AI applications
-- Developing intelligent developer tools
-- Strengthening DSA and Computer Science fundamentals
-- Exploring Generative AI and RAG systems
-- Contributing to open-source projects
-- Preparing for software and AI/ML engineering opportunities
+| Project | Description | Technologies |
+|---|---|---|
+| AeroSaga Drone Mission Control | Drone mission orchestration using Temporal workflows | Java, Spring Boot, Temporal |
+| CodeMind | AI-powered coding assistant using RAG | Java, Spring Boot, RAG |
+| Driver Drowsiness Detection | Real-time driver monitoring and distraction detection | Java, OpenCV |
+| AI Face Recognition Attendance | Automated face recognition attendance system | Python, OpenCV, ML |
+| APIx | Real-time airfare price index | Python, APIs |
 
 ---
 
-## 📈 My Development Focus
+## 🏆 Achievements
 
-```text
-Artificial Intelligence
-        ↓
-Machine Learning
-        ↓
-Generative AI
-        ↓
-RAG & LLM Applications
-        ↓
-Backend Engineering
-        ↓
-Production-Ready AI Systems
+- 🥇 Smart India Hackathon 2026 – Finalist.
+- 🏆 IBM NH26 Hackathon – Finalist.
+- ✈️ All India Aero Expo 2025 – 4th Rank at IIT Roorkee.
+- 💻 180+ LeetCode problems solved.
+
+---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=gouthamsukamanchi-ship-it&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gouthamsukamanchi-ship-it&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<br/>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=gouthamsukamanchi-ship-it&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+## 🐍 Contribution Activity
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-contribution-grid-snake.svg" width="100%"/>
+
+</div>
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/gouthamsukamanchi-ship-it">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 💡 Code. Learn. Build. Repeat.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090979,50:00D4FF,100:090979&height=100&section=footer" width="100%"/>
+
+</div>
+EOF
+
+git add README.md
+git commit -m "docs: update GitHub profile README"
+git push origin HEAD
