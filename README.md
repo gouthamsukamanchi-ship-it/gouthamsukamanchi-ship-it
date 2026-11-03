@@ -1,11 +1,28 @@
+set -e
+
+# Verify repository
+git rev-parse --is-inside-work-tree >/dev/null
+git remote get-url origin >/dev/null
+
+# Create workflow directory
 mkdir -p .github/workflows
+
+# ==========================================
+# COMPLETE GITHUB PROFILE README
+# ==========================================
 
 cat > README.md <<'EOF'
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:000428,50:004e92,100:00c6ff&text=Goutham%20Sukamanchi&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%7C%20ML%20%7C%20Backend%20Developer&descAlignY=58&descSize=18" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:00C6FF&height=220&section=header&text=Goutham%20Sukamanchi&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%7C%20ML%20%7C%20Backend%20Developer&descSize=18&descAlignY=55"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Computer+Science+Engineering+Student;AI+%2F+ML+Enthusiast;Backend+Developer;Building+Intelligent+Real-World+Solutions" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Computer+Science+Engineering+Student;AI+%2F+ML+Enthusiast;Backend+Developer;Building+Intelligent+Solutions"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Focus-Artificial%20Intelligence-00C6FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/University-UPES-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Location-India-orange?style=for-the-badge"/>
 
 </div>
 
@@ -14,52 +31,54 @@ cat > README.md <<'EOF'
 ## 👨‍💻 About Me
 
 - 🎓 Computer Science Engineering student at **UPES, Dehradun**.
-- 🤖 Interested in Artificial Intelligence, Machine Learning and Deep Learning.
-- 💻 Building backend systems and intelligent applications.
-- 🚀 Exploring RAG, LLMs, Computer Vision and workflow orchestration.
-- 🏆 SIH 2026 Finalist.
-- 🥇 IBM NH26 Hackathon Finalist.
-- ✈️ 4th Rank – All India Aero Expo 2025, IIT Roorkee.
-- 🧩 180+ LeetCode problems solved.
+- 🤖 Passionate about Artificial Intelligence, Machine Learning and Deep Learning.
+- 💻 Developing backend applications and intelligent systems.
+- 🧠 Exploring LLMs, RAG, Computer Vision and workflow orchestration.
+- 🚀 Interested in building scalable, real-world software solutions.
+- 🧩 Solved **180+ LeetCode problems**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies & Tools
 
 ### Programming Languages
+
 <p>
-<img src="https://skillicons.dev/icons?i=java,python,cpp,c" />
+<img src="https://skillicons.dev/icons?i=java,python,cpp,c"/>
 </p>
 
-### AI / ML & Data Science
+### AI / ML
+
 <p>
-<img src="https://skillicons.dev/icons?i=pytorch,opencv" />
+<img src="https://skillicons.dev/icons?i=pytorch,opencv"/>
 </p>
 
-`Machine Learning` `Deep Learning` `Computer Vision` `RAG` `LLMs` `YOLO`
+`Machine Learning` · `Deep Learning` · `Computer Vision` · `RAG` · `LLMs` · `YOLO`
 
 ### Backend & Development
+
 <p>
-<img src="https://skillicons.dev/icons?i=spring,fastapi,react,mysql,docker,git,github" />
+<img src="https://skillicons.dev/icons?i=spring,fastapi,react,mysql,docker,git,github"/>
 </p>
 
-`Temporal` `REST APIs` `Ollama`
+`Temporal` · `REST APIs` · `Ollama` · `Maven`
 
-### Tools & Platforms
+### Development Tools
+
 <p>
-<img src="https://skillicons.dev/icons?i=linux,idea,vscode,postman,maven` />
+<img src="https://skillicons.dev/icons?i=idea,vscode,postman,linux"/>
 </p>
 
 ---
 
 ## 🚀 Featured Projects
 
-| Project | Description | Technologies |
+| Project | Description | Tech Stack |
 |---|---|---|
 | **AeroSaga – Drone Mission Control** | Drone mission orchestration and workflow management | Java, Spring Boot, Temporal |
-| **CodeMind** | AI-powered coding assistant using RAG | Java, Spring Boot, RAG |
-| **Driver Drowsiness Detection** | Real-time driver monitoring and distraction detection | Java, OpenCV |
-| **Face Recognition Attendance** | AI-based face recognition attendance system | Python, OpenCV |
+| **CodeMind** | AI coding assistant using Retrieval-Augmented Generation | Java, Spring Boot, RAG |
+| **Driver Drowsiness Detection** | Real-time driver drowsiness and distraction monitoring | Java, OpenCV |
+| **AI Face Recognition Attendance** | Automated face recognition attendance system | Python, OpenCV |
 | **APIx – Airfare Price Index** | Real-time airfare price analysis | Python, APIs |
 
 ---
@@ -69,47 +88,66 @@ cat > README.md <<'EOF'
 - 🏅 Smart India Hackathon 2026 – Finalist.
 - 🏅 IBM NH26 Hackathon – Finalist.
 - ✈️ All India Aero Expo 2025, IIT Roorkee – 4th Rank.
-- 💡 180+ LeetCode problems solved.
+- 💻 180+ LeetCode problems solved.
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Overview
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=gouthamsukamanchi-ship-it&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gouthamsukamanchi-ship-it&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img width="60%" src="https://streak-stats.demolab.com?user=gouthamsukamanchi-ship-it&theme=tokyonight&hide_border=true" />
-</p>
+<a href="https://github.com/gouthamsukamanchi-ship-it">
+<img src="https://img.shields.io/badge/GitHub-gouthamsukamanchi--ship--it-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/github/followers/gouthamsukamanchi-ship-it?label=Followers&style=for-the-badge&logo=github&color=blue"/>
+<img src="https://img.shields.io/github/stars/gouthamsukamanchi-ship-it?label=Profile%20Repo%20Stars&style=for-the-badge&logo=github&color=yellow"/>
+<img src="https://img.shields.io/github/last-commit/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it?style=for-the-badge&logo=github"/>
+
+<br/><br/>
+
+<img width="60%" src="https://streak-stats.demolab.com?user=gouthamsukamanchi-ship-it&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+
+</div>
 
 ---
 
 ## 🐍 Watch My Contributions Get Eaten!
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
-</p>
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+
+</div>
 
 ---
 
 ## 🤝 Connect With Me
 
-<p align="center">
-  <a href="https://github.com/gouthamsukamanchi-ship-it">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+<div align="center">
+
+<a href="https://github.com/gouthamsukamanchi-ship-it">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+---
 
 <div align="center">
 
-### 💡 "Building today what inspires tomorrow."
+### 💡 Building today what inspires tomorrow.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,50:004e92,100:00c6ff&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:00C6FF&height=110&section=footer" width="100%"/>
 
 </div>
 EOF
+
+# ==========================================
+# CONTRIBUTION SNAKE AUTOMATION
+# ==========================================
 
 cat > .github/workflows/snake.yml <<'EOF'
 name: Generate Contribution Snake
@@ -122,14 +160,15 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: Generate Snake
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: gouthamsukamanchi-ship-it
@@ -137,14 +176,31 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Deploy Snake
+      - name: Publish snake to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force_orphan: true
 EOF
 
+# ==========================================
+# COMMIT AND PUSH
+# ==========================================
+
 git add README.md .github/workflows/snake.yml
-git commit -m "docs: build animated GitHub profile README"
-git push origin main
+
+if ! git diff --cached --quiet; then
+    git commit -m "docs: create complete animated GitHub profile"
+else
+    echo "No new changes to commit."
+fi
+
+git push -u origin main
+
+echo ""
+echo "=========================================="
+echo " README AND SNAKE WORKFLOW PUSHED!"
+echo "=========================================="
+echo "Next: Open GitHub Actions and run Generate Contribution Snake."
