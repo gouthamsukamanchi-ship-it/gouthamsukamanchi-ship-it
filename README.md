@@ -1,14 +1,13 @@
 set -e
 
-# Verify repository
-git rev-parse --is-inside-work-tree >/dev/null
-git remote get-url origin >/dev/null
-
-# Create workflow directory
 mkdir -p .github/workflows
 
+# Remove old snake workflow files
+rm -f .github/workflows/snake.yml
+rm -f .github/workflows/snake.yaml
+
 # ==========================================
-# COMPLETE GITHUB PROFILE README
+# COMPLETE PROFILE README
 # ==========================================
 
 cat > README.md <<'EOF'
@@ -32,22 +31,22 @@ cat > README.md <<'EOF'
 
 - 🎓 Computer Science Engineering student at **UPES, Dehradun**.
 - 🤖 Passionate about Artificial Intelligence, Machine Learning and Deep Learning.
-- 💻 Developing backend applications and intelligent systems.
+- 💻 Building backend applications and intelligent systems.
 - 🧠 Exploring LLMs, RAG, Computer Vision and workflow orchestration.
-- 🚀 Interested in building scalable, real-world software solutions.
+- 🚀 Interested in scalable, real-world software solutions.
 - 🧩 Solved **180+ LeetCode problems**.
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛠️ Tech Stack
 
-### Programming Languages
+**Languages**
 
 <p>
 <img src="https://skillicons.dev/icons?i=java,python,cpp,c"/>
 </p>
 
-### AI / ML
+**AI / ML**
 
 <p>
 <img src="https://skillicons.dev/icons?i=pytorch,opencv"/>
@@ -55,7 +54,7 @@ cat > README.md <<'EOF'
 
 `Machine Learning` · `Deep Learning` · `Computer Vision` · `RAG` · `LLMs` · `YOLO`
 
-### Backend & Development
+**Backend & Development**
 
 <p>
 <img src="https://skillicons.dev/icons?i=spring,fastapi,react,mysql,docker,git,github"/>
@@ -63,7 +62,7 @@ cat > README.md <<'EOF'
 
 `Temporal` · `REST APIs` · `Ollama` · `Maven`
 
-### Development Tools
+**Tools**
 
 <p>
 <img src="https://skillicons.dev/icons?i=idea,vscode,postman,linux"/>
@@ -73,7 +72,7 @@ cat > README.md <<'EOF'
 
 ## 🚀 Featured Projects
 
-| Project | Description | Tech Stack |
+| Project | Description | Technologies |
 |---|---|---|
 | **AeroSaga – Drone Mission Control** | Drone mission orchestration and workflow management | Java, Spring Boot, Temporal |
 | **CodeMind** | AI coding assistant using Retrieval-Augmented Generation | Java, Spring Boot, RAG |
@@ -92,19 +91,12 @@ cat > README.md <<'EOF'
 
 ---
 
-## 📊 GitHub Overview
+## 📊 GitHub Statistics
 
 <div align="center">
 
-<a href="https://github.com/gouthamsukamanchi-ship-it">
-<img src="https://img.shields.io/badge/GitHub-gouthamsukamanchi--ship--it-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/github/followers/gouthamsukamanchi-ship-it?label=Followers&style=for-the-badge&logo=github&color=blue"/>
-<img src="https://img.shields.io/github/stars/gouthamsukamanchi-ship-it?label=Profile%20Repo%20Stars&style=for-the-badge&logo=github&color=yellow"/>
-<img src="https://img.shields.io/github/last-commit/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/github/followers/gouthamsukamanchi-ship-it?style=for-the-badge&logo=github&label=Followers"/>
+<img src="https://img.shields.io/github/stars/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it?style=for-the-badge&logo=github&label=Profile%20Stars"/>
 
 <br/><br/>
 
@@ -118,7 +110,11 @@ cat > README.md <<'EOF'
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake.svg"/>
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/gouthamsukamanchi-ship-it/gouthamsukamanchi-ship-it/output/github-snake.svg" width="100%"/>
+</picture>
 
 </div>
 
@@ -134,28 +130,26 @@ cat > README.md <<'EOF'
 
 </div>
 
----
-
 <div align="center">
 
 ### 💡 Building today what inspires tomorrow.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:00C6FF&height=110&section=footer" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:00C6FF&height=110&section=footer"/>
 
 </div>
 EOF
 
 # ==========================================
-# CONTRIBUTION SNAKE AUTOMATION
+# NEW SNAKE GENERATOR WORKFLOW
 # ==========================================
 
 cat > .github/workflows/snake.yml <<'EOF'
 name: Generate Contribution Snake
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
   push:
     branches:
       - main
@@ -168,15 +162,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate contribution snake
-        uses: Platane/snk@v3
+      - name: Generate snake SVG files
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: gouthamsukamanchi-ship-it
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Publish snake to output branch
+      - name: Publish generated SVG files
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -191,16 +185,10 @@ EOF
 
 git add README.md .github/workflows/snake.yml
 
-if ! git diff --cached --quiet; then
-    git commit -m "docs: create complete animated GitHub profile"
-else
-    echo "No new changes to commit."
-fi
+git commit -m "docs: update profile README and contribution animation"
 
-git push -u origin main
+git push origin main
 
 echo ""
-echo "=========================================="
-echo " README AND SNAKE WORKFLOW PUSHED!"
-echo "=========================================="
-echo "Next: Open GitHub Actions and run Generate Contribution Snake."
+echo "SUCCESS: README and new snake workflow pushed!"
+echo "Next: Enable GitHub Actions read/write permissions."
