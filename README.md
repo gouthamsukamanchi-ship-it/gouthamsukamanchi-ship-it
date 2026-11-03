@@ -14,7 +14,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=gouthamsukamanchi-ship-it&label=PROFILE%20VIEWS&color=00f5ff&style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/gouthamsukamanchi-ship-it?style=for-the-badge&logo=github&color=302b63&labelColor=0f0c29)
-![Repos](https://img.shields.io/badge/Repos-4-00f5ff?style=for-the-badge&logo=github&labelColor=0f0c29)
+![Repos](https://img.shields.io/badge/Repos-8-00f5ff?style=for-the-badge&logo=github&labelColor=0f0c29)
 
 </div>
 
@@ -118,15 +118,8 @@ Voice-activated assistant with speech recognition, conversational AI and an inte
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=gouthamsukamanchi-ship-it&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=00f5ff" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gouthamsukamanchi-ship-it&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5ff" />
-
 <img src="https://streak-stats.demolab.com?user=gouthamsukamanchi-ship-it&theme=tokyonight&hide_border=true&background=0d1117&ring=00f5ff&fire=ff6b6b&currStreakLabel=00f5ff" />
 
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gouthamsukamanchi-ship-it&theme=react-dark&hide_border=true&bg_color=0d1117&color=00f5ff&line=00f5ff&point=ffffff&area=true" width="95%" />
 </div>
 
 ---
