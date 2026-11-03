@@ -1,16 +1,3 @@
-set -e
-
-mkdir -p .github/workflows
-
-# Remove old snake workflow files
-rm -f .github/workflows/snake.yml
-rm -f .github/workflows/snake.yaml
-
-# ==========================================
-# COMPLETE PROFILE README
-# ==========================================
-
-cat > README.md <<'EOF'
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:00C6FF&height=220&section=header&text=Goutham%20Sukamanchi&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%7C%20ML%20%7C%20Backend%20Developer&descSize=18&descAlignY=55"/>
@@ -40,13 +27,13 @@ cat > README.md <<'EOF'
 
 ## 🛠️ Tech Stack
 
-**Languages**
+### Programming Languages
 
 <p>
 <img src="https://skillicons.dev/icons?i=java,python,cpp,c"/>
 </p>
 
-**AI / ML**
+### AI / ML
 
 <p>
 <img src="https://skillicons.dev/icons?i=pytorch,opencv"/>
@@ -54,7 +41,7 @@ cat > README.md <<'EOF'
 
 `Machine Learning` · `Deep Learning` · `Computer Vision` · `RAG` · `LLMs` · `YOLO`
 
-**Backend & Development**
+### Backend & Development
 
 <p>
 <img src="https://skillicons.dev/icons?i=spring,fastapi,react,mysql,docker,git,github"/>
@@ -62,7 +49,7 @@ cat > README.md <<'EOF'
 
 `Temporal` · `REST APIs` · `Ollama` · `Maven`
 
-**Tools**
+### Tools
 
 <p>
 <img src="https://skillicons.dev/icons?i=idea,vscode,postman,linux"/>
@@ -137,58 +124,3 @@ cat > README.md <<'EOF'
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:00C6FF&height=110&section=footer"/>
 
 </div>
-EOF
-
-# ==========================================
-# NEW SNAKE GENERATOR WORKFLOW
-# ==========================================
-
-cat > .github/workflows/snake.yml <<'EOF'
-name: Generate Contribution Snake
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Generate snake SVG files
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: gouthamsukamanchi-ship-it
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Publish generated SVG files
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          force_orphan: true
-EOF
-
-# ==========================================
-# COMMIT AND PUSH
-# ==========================================
-
-git add README.md .github/workflows/snake.yml
-
-git commit -m "docs: update profile README and contribution animation"
-
-git push origin main
-
-echo ""
-echo "SUCCESS: README and new snake workflow pushed!"
-echo "Next: Enable GitHub Actions read/write permissions."
